@@ -6,6 +6,13 @@
 - choose at least one regularizer and evaluate your system's performance with and without it
 - you will perform at least 2×2×2=8 training runs
 
+Notes:
+ 1. modify optimizer = tf.keras.optimizers.Adam()
+    - learning_rate
+ 2. modify kernel_regularizer = tf.keras.regularizers.l2()
+    - value such as 0.001
+ 3. modify ???
+
 2. model.py: TensorFlow code that defines the network
 - At least 2 architectures (different number and sizes of the layers)
 - you must use at least one hidden layer and you must use fully connected layers with ReLU
