@@ -11,6 +11,7 @@
 - you must use at least one hidden layer and you must use fully connected layers with ReLU
 - or a variation (not convolutional nodes) for all hidden nodes
 - softmax for the output layer
+- You will measure loss with cross-entropy after mapping the class labels to one-hot vectors.
  
 3. util.py: Helper functions (e.g., for loading the data, small repetitive functions)
 - fashion MNIST data
